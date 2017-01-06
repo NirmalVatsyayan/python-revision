@@ -1,0 +1,131 @@
+installation steps: windows
+
+virtual environment
+
+
+create:
+    pip install virtualenv
+
+activate:
+    vEnv\Script\activate
+
+deactivate:
+    deactivate
+
+pep-specification:
+    https://www.python.org/dev/peps/pep-0008/
+
+variables
+operators
+data types 
+decisions
+
+
+virtual environment wrapper
+
+control statements
+loops (continue & break)
+
+numbers
+strings
+
+taking user input
+command line arguments
+
+list
+tuple
+sets
+frozen sets
+dictionary
+
+functions
+functions annotations
+
+module
+
+sys library
+os library
+and others
+
+Exceptions
+
+list comprehensions
+tuple comprehensions
+dict comprehensions
+set comprehensions
+
+lambda functions
+map, reduce, filters
+
+objects and classes
+oops in python
+methods
+method overloading issue
+method overriding
+operator overloading
+monkey patching
+inheritance
+
+user defined exception
+
+duck typing
+file handling
+iterables and iterators
+decorators
+generators
+closures
+
+meta class
+sockets (tcp and udp) + select socket
+
+multithreading
+sharing variables bw threads
+multiprocessing
+sharing variables bw process
+thread pool
+async thread
+furture thread
+
+time
+
+arrays
+
+mutex
+semaphore
+
+
+BIFs at all level in python
+docstrings & doctests
+unittests
+itertools
+functools
+collections
+
+deep copy & shallow copy
+
+python versions 2 & 3
+
+asyncio
+coroutines
+
+noseframework
+garbage collection
+
+
+async process
+regular expressions
+unicodes
+
+logging
+pylint
+
+pdb
+
+cprofile
+
+numpy - 
+pandas
+matplotlib
+scipy
+sklearn
+NLTK
