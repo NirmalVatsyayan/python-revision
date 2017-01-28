@@ -16,7 +16,6 @@ print(os.getcwd())
 
 path = os.getcwd()
 
-
 '''change path'''
 os.chdir(path)
 

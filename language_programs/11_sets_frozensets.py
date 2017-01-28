@@ -40,7 +40,7 @@ data.clear()
 #print(a)
 
 
-#pop fetches the last element
+#pop fetches the first element
 #a = set()
 #a.add(1)
 #print(a.pop())

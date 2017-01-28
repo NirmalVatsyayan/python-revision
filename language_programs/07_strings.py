@@ -1,6 +1,9 @@
 
 var1 = 'Hello World!'
 
+#reverse a string
+#string[::-1]
+#string[start:stop:step]
 
 print("var1[0]: ", var1[0])
 print("var1[1:5]: ", var1[1:5])

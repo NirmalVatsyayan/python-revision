@@ -1,4 +1,4 @@
-'''
+
 tup1 = ('physics', 'chemistry', 1997, 2000)
 
 
@@ -41,7 +41,7 @@ print(tup1*4)
 
 #data = list(tup1)
 #print(type(data), "   ",data)
-'''
+
 
 
 tup1 = ('physics', 'chemistry', 1997, 2000)

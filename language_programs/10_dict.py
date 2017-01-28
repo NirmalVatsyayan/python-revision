@@ -54,6 +54,13 @@ for key, value in data.items():
 	print(key, " :  ", value)
 
 
+
+key1 -> value
+key2 -> value
+key3 -> value
+key4 -> value
+key5 -> value
+
 #fetch value from key
 #print(data['School'])
 print(data.get('School'))

@@ -1,10 +1,14 @@
 installation steps: windows
 
-virtual environment
+pip install <library_name>
 
+virtual environment - https://virtualenv.pypa.io/en/stable/
+
+install:
+    pip install virtualenv
 
 create:
-    pip install virtualenv
+    virtualenv testPython
 
 activate:
     vEnv\Script\activate
@@ -12,31 +16,40 @@ activate:
 deactivate:
     deactivate
 
-pep-specification:
-    https://www.python.org/dev/peps/pep-0008/
+
+Pending :
+    pep-specification:
+        https://www.python.org/dev/peps/pep-0008/
+
+
+    virtualenv wrapper  || virtual environment wrapper
+	https://pypi.python.org/pypi/virtualenvwrapper-win
+	https://virtualenvwrapper.readthedocs.io/en/latest/
+
+
+
 
 variables
-operators
-data types 
-decisions
 
-
-virtual environment wrapper
-
-control statements
-loops (continue & break)
-
-numbers
-strings
+operators   || pending bit wise
+data types
 
 taking user input
 command line arguments
 
+decisions  
+
+loops (continue & break) || loop control statements
+
+numbers
+strings
+
 list
 tuple
+dictionary
+
 sets
 frozen sets
-dictionary
 
 functions
 functions annotations
@@ -54,28 +67,42 @@ tuple comprehensions
 dict comprehensions
 set comprehensions
 
-lambda functions
-map, reduce, filters
-
 objects and classes
 oops in python
 methods
 method overloading issue
 method overriding
-operator overloading
-monkey patching
 inheritance
 
-user defined exception
-
+monkey patching (setattr, getattr, hasattr, delattr)
 duck typing
+abstaction
+
+1) 
+operator overloading
+user defined exception
+lambda functions
+map, reduce, filters
+
+
+2)
 file handling
-iterables and iterators
+closures
 decorators
 generators
-closures
 
-meta class
+
+3)
+iterables and iterators -> __iter__
+deep copy and shallow copy
+
+class methods
+static
+instance
+
+4)
+regular expressions
+how to read python doc
 sockets (tcp and udp) + select socket
 
 multithreading
@@ -86,46 +113,57 @@ thread pool
 async thread
 furture thread
 
-time
-
-arrays
-
 mutex
 semaphore
 
-
-BIFs at all level in python
-docstrings & doctests
-unittests
-itertools
-functools
-collections
-
-deep copy & shallow copy
-
+5)
 python versions 2 & 3
 
 asyncio
 coroutines
-
 noseframework
 garbage collection
-
-
 async process
-regular expressions
 unicodes
-
+meta class
 logging
 pylint
-
 pdb
-
 cprofile
 
-numpy - 
-pandas
-matplotlib
-scipy
-sklearn
+numpy
 NLTK
+
+
+itertool
+functool
+collection
+
+py file BIFS
+
+
+
+6) - 10)
+django - (DTL)
+django - (restframework)
+
+twisted klein
+bottle
+hug
+flask
+
+sqllite
+postgressql
+mongodb (MongoEngine) || pymongo
+
+redis
+memcache
+
+
+
+snake game (pygame, copied)
+multiplayer car game (socket)
+
+DTL django
+rest apis
+
