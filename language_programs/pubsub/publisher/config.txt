@@ -1,0 +1,3 @@
+[publisher]
+ip = "0.0.0.0"
+channel1_port = 8132

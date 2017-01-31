@@ -110,25 +110,30 @@ sharing variables bw threads
 mutex
 semaphore
 
-
 multiprocessing
 sharing variables bw process
 
 thread pool
+process pool
+
 async thread
 async process
 
 
-regular expressions
+concurrency and parallelism
+GIL - Global interpretar lock
+
 
 5)
+regular expressions
+
 python versions 2 & 3
 
 asyncio
 coroutines
 noseframework
 garbage collection
-async process
+
 unicodes
 meta class
 logging
@@ -139,14 +144,9 @@ cprofile
 numpy
 NLTK
 
-
 itertool
 functool
 collection
-
-py file BIFS
-
-
 
 6) - 10)
 django - (DTL)

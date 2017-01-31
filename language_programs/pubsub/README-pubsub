@@ -1,0 +1,13 @@
+1) Unzip the pubsub folder
+
+2) code is written in python3, kindly make sure you have python3 on your system
+
+3) make sure on your system, port 8132 and 9000 are free
+   if not kindly change ports in config.txt of channel, publisher, subscriber1 and subscriber2
+
+4) make sure you run process in given order only
+       go to folder channel and run python main.py
+       go to folder publisher and run python main.py
+       go to subscriber1 and subscriber2 and run python main.py
+
+5) observer output at both subscriber
