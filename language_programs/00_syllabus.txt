@@ -58,6 +58,7 @@ module
 
 sys library
 os library
+
 and others
 
 Exceptions
@@ -100,21 +101,25 @@ class methods
 static
 instance
 
+
 4)
-regular expressions
-how to read python doc
 sockets (tcp and udp) + select socket
 
 multithreading
 sharing variables bw threads
-multiprocessing
-sharing variables bw process
-thread pool
-async thread
-furture thread
-
 mutex
 semaphore
+
+
+multiprocessing
+sharing variables bw process
+
+thread pool
+async thread
+async process
+
+
+regular expressions
 
 5)
 python versions 2 & 3

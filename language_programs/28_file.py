@@ -9,6 +9,9 @@ append
 #w - write mode
 #r+ - reading and writing
 
+
+
+
 import csv - csv writer
 '''
 
@@ -26,21 +29,21 @@ print(data.split("\n"))
 file_ptr.close()
 '''
 
-'''
+
 #write
 file_ptr = open("demo.txt", "w")
 file_ptr.write("this is new content\n")
 file_ptr.write("this is another new line")
 file_ptr.close()
-'''
 
-'''
+
+
 #append
 file_ptr = open("demo.txt", "a")
 file_ptr.write("this is append new content\n")
 file_ptr.write("this is another append new line")
 file_ptr.close()
-'''
+
 
 file_ptr = open("demo.txt", "r+")
 file_ptr.write("this r+ content\n")
