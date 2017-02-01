@@ -1,0 +1,29 @@
+web frameworks: Batteries included
+    django - sync
+
+    flask - sync
+    twisted klein - async
+
+web:
+   url routing
+   db modeling/designing
+   expose api
+
+
+Web server:
+   nginx
+   twisted
+
+DB-postgres sql, mongodb
+     DML 
+     DDL
+     DCL
+
+     JOINS
+     INDEX
+     
+
+caching - memcache or/and redis
+
+Project:
+

@@ -110,24 +110,25 @@ sharing variables bw threads
 mutex
 semaphore
 
-
 multiprocessing
 sharing variables bw process
 
 thread pool
+process pool
+
 async thread
 async process
 
-
+concurrency and parallelism
+GIL - Global interpretar lock
 
 
 5)
+
 meta class
 logging
 pylint
 cprofile
-
-
 
 
 unicodes

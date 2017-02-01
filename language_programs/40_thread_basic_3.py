@@ -23,20 +23,26 @@ import time
 
 count = 0
 
+data = []
+
 class myThread (threading.Thread):
     def __init__(self, threadID, name, counter):
         threading.Thread.__init__(self)
         self.threadID = threadID
         self.name = name
         self.counter = counter
+
     def run(self):
         print("Starting " + self.name)
         # Get lock to synchronize threads
-        
         threadLock.acquire()
+        if self.name == 'Thread-1':
+            time.sleep(1)
+        
         global count
-        print(self.name," lock on shared resource ",count)
-        count = count + 1
+        print(self.name," lock on shared resource ",data)
+        data.append(self.name)
+        #count = count + 1
         print(self.name," lock released on shared resource ",count)
 
         print_time(self.name, self.counter, 3)
@@ -53,8 +59,8 @@ threadLock = threading.Lock()
 threads = []
 
 # Create new threads
-thread1 = myThread(1, "Thread-1", 0)
-thread2 = myThread(2, "Thread-2", 0)
+thread1 = myThread(1, "Thread-1", 1)
+thread2 = myThread(2, "Thread-2", 1)
 
 # Start new Threads
 thread1.start()
@@ -67,4 +73,6 @@ threads.append(thread2)
 # Wait for all threads to complete
 for t in threads:
     t.join()
+
+print(data)
 print("Exiting Main Thread")
