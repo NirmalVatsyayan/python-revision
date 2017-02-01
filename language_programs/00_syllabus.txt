@@ -119,33 +119,23 @@ async thread
 async process
 
 
-regular expressions
+
 
 5)
-python versions 2 & 3
-
-asyncio
-coroutines
-noseframework
-garbage collection
-async process
-unicodes
 meta class
 logging
 pylint
-pdb
 cprofile
 
-numpy
-NLTK
 
 
+
+unicodes
 itertool
 functool
 collection
 
-py file BIFS
-
+regular expressions
 
 
 6) - 10)
@@ -172,3 +162,12 @@ multiplayer car game (socket)
 DTL django
 rest apis
 
+
+python versions 2 & 3
+asyncio
+coroutines
+noseframework
+garbage collection
+pdb
+numpy
+NLTK
