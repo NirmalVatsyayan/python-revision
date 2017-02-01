@@ -1,3 +1,7 @@
 [Configuration]
-NAME = nirmal
+NAME = linga
 CODE = python
+
+
+[Student]
+NUMBERS = 10

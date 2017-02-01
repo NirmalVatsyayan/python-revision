@@ -125,10 +125,14 @@ GIL - Global interpretar lock
 
 5)
 
-meta class
+meta class  --  design pattern || factory, singleton, abstract factory
+                , adapter, builder
+
 logging
+cProfile
 pylint
-cprofile
+
+
 
 
 unicodes
