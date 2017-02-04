@@ -12,16 +12,57 @@ UserString	wrapper around string objects for easier string subclassing
 
 '''
 
-import collections
+from collections import Counter
+from collections import defaultdict
+from collections import namedtuple
+from collections import deque
 
-counter = collections.Counter()
-for word in ['red', 'blue', 'red', 'green', 'blue', 'blue']:
-     counter[word] += 1
+def show_counter():
+    counter = Counter()
+    for word in ['red', 'blue', 'red', 'green', 'blue', 'blue']:
+        counter[word] += 1
 
-print(counter)
+    print(counter)
 
-c = collections.Counter({'red': 4, 'blue': 2})
-print(sorted(c.elements()))
+    print(counter.most_common(2))
 
-print(c.most_common(1))
+    c = Counter({'red': 4, 'blue': 2})
+    print(sorted(c.elements()))
+
+    print(c.most_common(1))
+
+
+def show_defaultDict():
+    ice_cream = defaultdict(lambda:"vanilla")
+
+    ice_cream['Linga'] = 'Reddy'
+    ice_cream['Nirmal'] = 'Vatsyayan'
+
+    print(ice_cream['Linga'])
+    print(ice_cream['Nirmal'])
+    print(ice_cream['Srikar'])
+
+
+def show_namedTuple():
+    Company = namedtuple('Company', 'name location website')
+    mp = Company(name='blah', location='delhi', website='blah.com')
+
+    mp1 = Company('blah1', 'new delhi', 'blah1.com')
+
+    print(mp.name, "  ", mp.location, " ", mp.website)
+    print(mp1.name, "  ", mp1.location, " ", mp1.website)
+
+
+def show_deque():
+    d = deque()
+    d.append('a')
+    d.append('b')
+    d.append('c')
+    print(d)
+
+    print(d.popleft())
+    print(d)
+    d.appendleft('nirmal')
+    print(d)
+
 

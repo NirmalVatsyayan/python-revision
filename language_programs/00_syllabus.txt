@@ -133,27 +133,50 @@ cProfile
 pylint
 
 
+encoding & decoding
 
-
-unicodes
 itertool
-functool
 collection
-
-regular expressions
 
 
 6) - 10)
+unicodes  || library + example
+functool
+regular expressions
+
+StringContainer class
+container_class class
+
+
+MVC - Model view controller
+
+microframeworks
+
+bottle  - https://bottlepy.org/docs/dev/
+hug   - http://www.hug.rest/
+flask  -  http://flask.pocoo.org/docs/0.12/tutorial/
+
+
+framework - batteries included
+
 django - (DTL)
 django - (restframework)
 
+postgressql
+
+
 twisted klein
-bottle
-hug
-flask
+
+
+authetication:
+    session based authentication (old school)
+    token based authentication
+
+
+monolithic
+micro service architecture
 
 sqllite
-postgressql
 mongodb (MongoEngine) || pymongo
 
 redis
@@ -163,9 +186,6 @@ memcache
 
 snake game (pygame, copied)
 multiplayer car game (socket)
-
-DTL django
-rest apis
 
 
 python versions 2 & 3
