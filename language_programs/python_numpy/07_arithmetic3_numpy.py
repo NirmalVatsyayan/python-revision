@@ -89,6 +89,8 @@ if False:
     print(x.T)  # Prints "[[1 3]
                #          [2 4]]"
 
+
+
 # First 20 countries with school completion data
 countries = np.array([
        'Algeria', 'Argentina', 'Armenia', 'Aruba', 'Austria','Azerbaijan',

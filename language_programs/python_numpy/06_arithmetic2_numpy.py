@@ -22,42 +22,42 @@ employment = np.array([
 
 # Accessing elements
 if False:
-    print countries[0]
-    print countries[3]
+    print(countries[0])
+    print(countries[3])
 
 # Slicing
 if False:
-    print countries[0:3]
-    print countries[:3]
-    print countries[17:]
-    print countries[:]
+    print(countries[0:3])
+    print(countries[:3])
+    print(countries[17:])
+    print(countries[:])
 
 # Element types
 if False:
-    print countries.dtype
-    print employment.dtype
-    print np.array([0, 1, 2, 3]).dtype
-    print np.array([1.0, 1.5, 2.0, 2.5]).dtype
-    print np.array([True, False, True]).dtype
-    print np.array(['AL', 'AK', 'AZ', 'AR', 'CA']).dtype
+    print(countries.dtype)
+    print(employment.dtype)
+    print(np.array([0, 1, 2, 3]).dtype)
+    print(np.array([1.0, 1.5, 2.0, 2.5]).dtype)
+    print(np.array([True, False, True]).dtype)
+    print(np.array(['AL', 'AK', 'AZ', 'AR', 'CA']).dtype)
 
 # Looping
 if False:
     for country in countries:
-        print 'Examining country {}'.format(country)
+        print('Examining country {}'.format(country))
 
     for i in range(len(countries)):
         country = countries[i]
         country_employment = employment[i]
-        print 'Country {} has employment {}'.format(country,
-                country_employment)
+        print('Country {} has employment {}'.format(country,
+                country_employment))
 
 # Numpy functions
 if False:
-    print employment.mean()
-    print employment.std()
-    print employment.max()
-    print employment.sum()
+    print(employment.mean())
+    print(employment.std())
+    print(employment.max())
+    print(employment.sum())
 
 def max_employment(countries, employment):
     '''
