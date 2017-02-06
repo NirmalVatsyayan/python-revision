@@ -24,3 +24,22 @@ print(10*np.sin(arr))
 #will compare all value of arr1 with 2
 #and return a array of boolean of results
 print(arr1 > 2)
+
+#concatenate multiple arrays || 1D
+
+x = np.array(range(0,6), float)
+y = np.array(range(6,10), float)
+z = np.array(range(10,16), float)
+
+a = np.concatenate((x, y, z))
+print(a)
+
+
+#concatenate multiple arrays || 2D
+a = np.array([[1, 2], [3, 4]], float)
+b = np.array([[5, 6], [7,8]], float)
+print(np.concatenate((a,b)))
+print(np.concatenate((a,b), axis=0))
+print(np.concatenate((a,b), axis=1))
+
+

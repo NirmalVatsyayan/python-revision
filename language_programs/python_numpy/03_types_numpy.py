@@ -7,6 +7,22 @@ for implicit type conversion
 arr = np.array([[1,2,3,4],[0,0,0,0]], dtype=complex)
 print(arr)
 
+
+'''
+create an array using np range
+'''
+
+a = np.arange(10, dtype=float)
+print(a)
+
+
+'''
+create an array using python range
+'''
+a = np.array(range(10), dtype=float)
+print(a)
+
+
 #create an array of particular size with
 #all elements having 0 value
 zero_arr = np.zeros((3,4))

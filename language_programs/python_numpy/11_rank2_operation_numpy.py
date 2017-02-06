@@ -48,6 +48,39 @@ if True:
     print(two_D_array[1, :])
     print("")
     print(two_D_array[:, 2])
+    print("")
+    print(two_D_array[-1:,-2:])
+    print("")
+    print(len(two_D_array))
+
+#copy of array
+if True:
+    arr_2_d = two_D_array.copy()
+    print(id(two_D_array))
+    print(id(arr_2_d))
+
+
+#convert array to list    
+if True:
+    x = arr_2_d.tolist()
+    print(x)
+
+    y = list(arr_2_d)
+    print(y)
+
+
+#convert array to string
+if True:
+    z = arr_2_d.tostring()
+    print(z)
+
+
+#convert string to array
+if True:
+    a = np.fromstring(z)
+    print(a)
+
+
 
 '''
 Here are some arithmetic operations that you can do with Numpy arrays
