@@ -7,86 +7,86 @@ if False:
     a = np.array([1, 2, 3, 4])
     b = np.array([1, 2, 1, 2])
     
-    print np.add(a, b)
-    print a + b
+    print(np.add(a, b))
+    print(a + b)
 
-    print np.substract(a, b)
-    print a - b
+    print(np.substract(a, b))
+    print(a - b)
 
-    print np.multiply(a, b)
-    print a * b
+    print(np.multiply(a, b))
+    print(a * b)
 
-    print np.divide(a, b)
-    print a / b
+    print(np.divide(a, b))
+    print(a / b)
 
-    print a ** b
+    print(a ** b)
     
-    print np.sqrt(a)
+    print(np.sqrt(a))
 
 # Arithmetic operations between a NumPy array and a single number
 if False:
     a = np.array([1, 2, 3, 4])
     b = 2
     
-    print a + b
-    print a - b
-    print a * b
-    print a / b
-    print a ** b
+    print(a + b)
+    print(a - b)
+    print(a * b)
+    print(a / b)
+    print(a ** b)
     
 # Logical operations with NumPy arrays
 if False:
     a = np.array([True, True, False, False])
     b = np.array([True, False, True, False])
     
-    print a & b
-    print a | b
-    print ~a
+    print(a & b)
+    print(a | b)
+    print(~a)
     
-    print a & True
-    print a & False
+    print(a & True)
+    print(a & False)
     
-    print a | True
-    print a | False
+    print(a | True)
+    print(a | False)
     
 # Comparison operations between 2 NumPy Arrays
 if False:
     a = np.array([1, 2, 3, 4, 5])
     b = np.array([5, 4, 3, 2, 1])
     
-    print a > b
-    print a >= b
-    print a < b
-    print a <= b
-    print a == b
-    print a != b
+    print(a > b)
+    print(a >= b)
+    print(a < b)
+    print(a <= b)
+    print(a == b)
+    print(a != b)
     
 # Comparison operations between a NumPy array and a single number
 if False:
     a = np.array([1, 2, 3, 4])
     b = 2
     
-    print a > b
-    print a >= b
-    print a < b
-    print a <= b
-    print a == b
-    print a != b
+    print(a > b)
+    print(a >= b)
+    print(a < b)
+    print(a <= b)
+    print(a == b)
+    print(a != b)
 
 #sum row wise or column wise
 if False:
-    data = np.array([[1, 2], [3, 4]])
-    print np.sum(x)  # Compute sum of all elements; prints "10"
-    print np.sum(x, axis=0)  # Compute sum of each column; prints "[4 6]"
-    print np.sum(x, axis=1)  # Compute sum of each row; prints "[3 7]"
+    data = np.array0([[1, 2], [3, 4]])
+    print(np.sum(x))  # Compute sum of all elements; prints "10"
+    print(np.sum(x, axis=0))  # Compute sum of each column; prints "[4 6]"
+    print(np.sum(x, axis=1))  # Compute sum of each row; prints "[3 7]"
 
 
 #transpose of matrix
 if False:
     x = np.array([[1,2], [3,4]])
-    print x    # Prints "[[1 2]
+    print(x)    # Prints "[[1 2]
                #          [3 4]]"
-    print x.T  # Prints "[[1 3]
+    print(x.T)  # Prints "[[1 3]
                #          [2 4]]"
 
 # First 20 countries with school completion data
@@ -124,4 +124,4 @@ def overall_completion_rate(female_completion, male_completion):
     return val/2.0
 
 val = overall_completion_rate(female_completion, male_completion)
-print val
+print(val)
