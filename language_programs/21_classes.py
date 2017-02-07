@@ -10,6 +10,32 @@ over riding
 abstraction
 '''
 
+
+'''
+Only for python 2.x,
+in python 3.x new style class
+is implicit with old style formats
+'''
+
+#old style class
+
+class Test:
+    pass
+
+#new style class
+class Pest(object):
+    pass
+
+x = Test()
+y = Pest()
+
+
+
+
+print(type(x))  # it will print type instance
+print(type(y))  # it will print class
+
+
 class Human(object):
     
     @staticmethod
