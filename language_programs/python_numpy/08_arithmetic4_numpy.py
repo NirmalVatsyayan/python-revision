@@ -31,7 +31,7 @@ if False:
     for (a1, a2) in b:
         print(a1, " " , a2)
 
-if True:
+if False:
     a = np.array(range(10), dtype=float)
     b = np.array([[0, 2], [3, -1], [3, 5]], float)
 
@@ -80,7 +80,7 @@ if True:
     print(b.min(axis=1))
     print(b.argmin(axis=1))
 
-'''
+    '''
 
             p  p  p  p  p
             o  o  o  o  o
@@ -106,20 +106,32 @@ if True:
 
             0  1  2  3  4
 
-'''
+    '''
 
 
-x = [[[ 0 ,  1,  2,  3,  4],
-      [ 5,  6,  7,  8,  9],
-      [10, 11, 12, 13, 14]],
+    x = [[[ 0 ,  1,  2,  3,  4],
+          [ 5,  6,  7,  8,  9],
+          [10, 11, 12, 13, 14]],
 
-     [[15, 16, 17, 18, 19],
-      [20, 21, 22, 23, 24],
-      [25, 26, 27, 28, 29]]]
+          [[15, 16, 17, 18, 19],
+          [20, 21, 22, 23, 24],
+          [25, 26, 27, 28, 29]]]
 
 
-a = np.array(x)
+    a = np.array(x)
 
-print(a.sum(axis=0))
-print(a.sum(axis=1))
-print(a.sum(axis=2))
+    print(a.sum(axis=0))
+    print(a.sum(axis=1))
+    print(a.sum(axis=2))
+
+
+if True:
+    a = np.array([1, 2, 3], float)
+    b = np.array([0, 1, 1], float)
+    print(np.dot(a,b))
+
+    a = np.array([[0, 1], [2, 3]], float)
+    b = np.array([2, 3], float)
+    c = np.array([[1, 1], [4, 0]], float)
+
+    print(np.dot(a, c))

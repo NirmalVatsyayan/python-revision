@@ -6,7 +6,7 @@ if False:
     print(a)
 
 
-if True:
+if False:
 	#creating eye matrix
 	#eye function creates matrices with ones along k-th diagonal
     print("Ones at 1-st diagonal")
@@ -20,3 +20,12 @@ if True:
     print("Ones at negative 1-st diagonal")
     b = np.eye(4, k=-1, dtype=float)
     print(b)
+
+
+if True:
+    #sort a numpy array
+    a = np.array([6, 2, 5, -1, 0], float)
+    print(sorted(a)) #returns a list
+    a.sort()
+    print(a)
+
