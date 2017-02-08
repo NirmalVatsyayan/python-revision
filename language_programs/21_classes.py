@@ -18,7 +18,6 @@ is implicit with old style formats
 '''
 
 #old style class
-
 class Test:
     pass
 
@@ -30,10 +29,14 @@ x = Test()
 y = Pest()
 
 
-
-
 print(type(x))  # it will print type instance
 print(type(y))  # it will print class
+
+
+
+
+class SomeName(object):
+    pass
 
 
 class Human(object):

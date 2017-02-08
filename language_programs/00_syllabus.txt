@@ -144,9 +144,6 @@ unicodes  || library + example
 functool
 regular expressions
 
-StringContainer class
-container_class class
-
 
 MVC - Model view controller
 
@@ -161,6 +158,11 @@ framework - batteries included
 
 django - (DTL)
 django - (restframework)
+    -  django-admin startproject polls, it creates a project
+    -  
+
+
+
 
 postgressql
 
