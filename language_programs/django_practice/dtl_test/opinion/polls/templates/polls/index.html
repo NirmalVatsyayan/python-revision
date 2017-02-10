@@ -1,0 +1,14 @@
+{% extends 'polls/base.html' %}
+
+{% block main_content %}
+<h1>Choose a question to vote.</h1>
+{% if latest_question %}
+    <ul>
+	    {% for question in latest_question %}
+	        <li><a  href={% url "polls:detail" question.id %}><b>{{question.question_text}}</b></a></li>
+	    {% endfor %}
+	</ul>
+{% else %}
+    <p>You dont have any question. Please add some</p>
+{% endif %}
+{% endblock %}
