@@ -1,0 +1,20 @@
+uwsgi --emperor /etc/uwsgi/vassals --uid=user_id --gid=group_id
+
+http://uwsgi-docs.readthedocs.io/en/latest/tutorials/Django_and_nginx.html
+
+django-admin startproject store
+
+python manage.py startapp books
+
+
+      web server (nginx) ----   client
+
+
+          socket
+
+       uwsgi - 20 (uwsgi)
+
+
+
+      framework
+
